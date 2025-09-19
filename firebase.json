@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "legalease-ai-931f0-1c00b",
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
